@@ -1,0 +1,93 @@
+#include <iostream>
+using namespace std;
+#include <string>
+
+class CalculoSupermercado
+{
+private:
+	double Preco1;
+	double Preco2;
+	double Matriz[2][4];
+public:
+	CalculoSupermercado();
+	~CalculoSupermercado();
+	double calcularVenda(double, double, double[2][4]);
+};
+
+int main(int argc, char *argv[])
+{
+	double PrecoProd1 = 0.0;
+	double PrecoProd2 = 0.0;
+	double AMatriz[2][4];
+	double Total = 0.0;
+	
+	cout << "\n> Entre com o preco do primeiro produto: R$";
+	cin >> PrecoProd1;
+	cout << "\n> Entre com o preco do segundo produto: R$";
+	cin >> PrecoProd2;
+
+	for (int i = 0; i < 2; i++)
+	{
+		for (int j = 0; j < 4; j++)
+		{
+			if (i == 0)
+			{
+				cout << "\n>Quantidade vendida do primeiro produto no dia #" << j+1 << ":";
+				cin >> AMatriz[i][j];
+			}
+			else if (i == 1)
+			{
+				cout << "\n>Quantidade vendida do segundo produto no dia #" << j+1 << ":";
+				cin >> AMatriz[i][j];
+			}
+
+		}
+	}
+
+	CalculoSupermercado cv;
+	Total = cv.calcularVenda(PrecoProd1, PrecoProd2, AMatriz);
+
+	cout << "\n>Venda Total = R$" << Total;
+
+
+
+	return 0;
+}
+
+CalculoSupermercado::CalculoSupermercado()
+{
+	Preco1 = 0.0;
+	Preco2 = 0.0;
+}
+
+CalculoSupermercado::~CalculoSupermercado()
+{
+
+}
+
+double CalculoSupermercado::calcularVenda(double PrecoProd1, double PrecoProd2, double Matriz[2][4])
+{
+	double Total=0.0;
+	double VendasProd1 = 0.0;
+	double VendasProd2 = 0.0;
+
+	for (int i = 0; i < 2; i++)
+	{
+		for (int j = 0; j < 4; j++)
+		{
+			if (i == 0)
+			{
+				VendasProd1 = VendasProd1 + (Matriz[i][j] * PrecoProd1);
+			}
+			else if (i == 1)
+			{
+				VendasProd2 = VendasProd2 + (Matriz[i][j] * PrecoProd2);
+			}
+
+		}
+	}
+
+	Total = VendasProd1 + VendasProd2;
+
+	return Total;
+}

@@ -1,0 +1,51 @@
+Paradigma: Camadas
+
+Relacionamento do tipo
+Dependencia
+	- Assuntos diferente
+	- Um unico assunto.
+Dependencia: quando uma classe não sabe fazer alguma coisa ela tem
+que pedir para outras ajudarem.
+
+Na UML (Linguagem de modelagem de sistemas) há um símbolo para 
+representar este relacionamento. Sejam "A" e "B" duas classes 
+quaisquer. Se "A" depende de "B", representa-se esta dependência
+da seguinte forma:
+
+	________		________
+	|  A   |		|  B   |
+	|______| -------------- |______|
+	|      |     ||         |      |
+	|      |     ||         |      |
+	|______|     ||		|______|
+	Classe "A" Dependencia	Classe "B"
+
+Lê-se: A depende de B !
+
+Exemplo:
+
+	 __________	_________	_____________		
+	|Interface |   |Controle |	|ConversorRe|
+	|Usuario   |   |_________|	|alDolar    |
+	|__________|   |         |      |___________|
+	|          |   |         |      |           |  
+	|          |---|         |------|           |
+	|__________|   |_________|	|___________|
+
+
+Lê-se:
+A controle depende da interface Usuario e da ConversorRealDolar para
+fazaer o sistema funcionar.
+
+Como a $dependencia$ é implementada?
+Ela é implementada através da camada de métodos da classe da qual ela 
+é dependente. Esta chamada é realizada dento de algum dos métodos da
+classe dependente
+
+No caso do diagrama UML anterior:
+Controle depende de ConversorRealDolar. Portanto, dentro de um $método$
+da controle deve existir uma $chamada$ a algum $método$ da classe 
+ConversorRealDolar.
+
+
+Observação: $ => sublinhado :D

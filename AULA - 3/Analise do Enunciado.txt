@@ -1,0 +1,48 @@
+1. Analise
+  
+  Objeto Abstrato: 
+	Venda
+
+  Atributos:
+	Preco Produto 1
+	Preco Produto 2
+	Quantidade vendida [2][4]
+	Venda Total
+
+Comportamentos
+Calcular Venda Total
+  Projeto
+  Classe:
+	Variaveis Privadas:
+		double PrecoProduto1
+		double PrecoProduto2
+		double QuantidadeVendida [2][4]
+		double Total
+
+Metodos: CalcularVendaTotal
+1 Passo: Declaração
+	double CalcularVenda(double, double, double[2][4]);
+2 Passo: DefiniçãoDoMetodo
+	double Venda::CalcularVendaTotal(double Preco1, double Preco2, double Vendas[2][4]
+{
+	PrecoProduto1 = Preco1;
+	PrecoProduto2 = Preco2;
+	for()
+	{
+	  for()
+	  {
+		quantidadeVendida[i][j] = Vendas[i][j]
+	  }
+	}
+	for()
+	{
+	   VendaTotal = VendaTotal + (PrecoProduto1 * QuantidadeVendida [i][j])
+	}
+	for()
+	{
+	   VentaTotal = VendaTotal + (PrecoProduto2 * QuantidadeVendida [i][j])
+	}
+  return VendaTotal;
+
+}
+  

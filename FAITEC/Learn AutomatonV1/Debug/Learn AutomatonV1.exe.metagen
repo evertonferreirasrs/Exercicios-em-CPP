@@ -1,0 +1,64 @@
+  LearnAutomatonV1.TelaPontuacao.resources - Embedded, ContainedInManifestFile, 
+  LearnAutomatonV1.TelaRanking.resources - Embedded, ContainedInManifestFile, 
+  LearnAutomatonV1.TelaAFD.resources - Embedded, ContainedInManifestFile, 
+  LearnAutomatonV1.TelaSobre.resources - Embedded, ContainedInManifestFile, 
+  LearnAutomatonV1.TelaPergunta.resources - Embedded, ContainedInManifestFile, 
+  LearnAutomatonV1.TelaPrincipal.resources - Embedded, ContainedInManifestFile, 
+  LearnAutomatonV1.TelaTeoria.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Learn AutomatonV1, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class LearnAutomatonV1.TelaPrincipal: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getStatusTelaPrincipal(): PrivateScope, Public, HideBySig
+Class LearnAutomatonV1.TelaSobre: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LearnAutomatonV1.TelaTeoria: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getStatusTeoria(): PrivateScope, Public, HideBySig
+Class LearnAutomatonV1.TelaPergunta: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getVetorDeRespostasUser(SByte* IsConst IsConst): PrivateScope, Public, HideBySig
+    getStatus(): PrivateScope, Public, HideBySig
+    getRespostaEscolhida(): PrivateScope, Public, HideBySig
+    carregarImagens(): PrivateScope, Public, HideBySig
+    carregarTelaPontuacao(): PrivateScope, Public, HideBySig
+    converterVetorParaArray(Int32* IsConst IsConst): PrivateScope, Public, HideBySig
+    setPontuacao(Int32): PrivateScope, Public, HideBySig
+Class LearnAutomatonV1.TelaAFD: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    computar($ArrayType$$$BY04H* IsConst IsConst, Int32* IsConst IsConst): PrivateScope, Public, HideBySig
+Class LearnAutomatonV1.TelaRanking: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getStatus(): PrivateScope, Public, HideBySig
+    setList(vector<Jogador\,std::allocator<Jogador> >*): PrivateScope, Public, HideBySig
+    limparLinhasVazias(): PrivateScope, Public, HideBySig
+Class LearnAutomatonV1.TelaPontuacao: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setPontos(Int32): PrivateScope, Public, HideBySig
+    getNome(SByte* IsConst IsConst): PrivateScope, Public, HideBySig

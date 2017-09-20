@@ -1,0 +1,38 @@
+﻿Build started 21/10/2015 17:26:27.
+     1>Project "C:\Users\Gabriel\Desktop\fai\LA - Bkp 21-10 as 01 hs\LA - Atualizado\Learn AutomatonV1\Learn AutomatonV1\Learn AutomatonV1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Controle.cpp Principal.cpp TelaAFD.cpp TelaPergunta.cpp TelaPontuacao.cpp TelaPrincipal.cpp TelaRanking.cpp TelaSobre.cpp TelaTeoria.cpp
+         Controle.cpp
+         Principal.cpp
+         TelaAFD.cpp
+         TelaPergunta.cpp
+         TelaPontuacao.cpp
+         TelaPrincipal.cpp
+         TelaRanking.cpp
+     1>TelaRanking.cpp(26): warning C4018: '<' : signed/unsigned mismatch
+         TelaSobre.cpp
+         TelaTeoria.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Gabriel\Desktop\fai\LA - Bkp 21-10 as 01 hs\LA - Atualizado\Learn AutomatonV1\Release\Learn AutomatonV1.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\LearnAutomatonV1.TelaPontuacao.resources /ASSEMBLYRESOURCE:Release\LearnAutomatonV1.TelaRanking.resources /ASSEMBLYRESOURCE:Release\LearnAutomatonV1.TelaAFD.resources /ASSEMBLYRESOURCE:Release\LearnAutomatonV1.TelaSobre.resources /ASSEMBLYRESOURCE:Release\LearnAutomatonV1.TelaPergunta.resources /ASSEMBLYRESOURCE:Release\LearnAutomatonV1.TelaPrincipal.resources /ASSEMBLYRESOURCE:Release\LearnAutomatonV1.TelaTeoria.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Gabriel\Desktop\fai\LA - Bkp 21-10 as 01 hs\LA - Atualizado\Learn AutomatonV1\Release\Learn AutomatonV1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"Main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH "Release\Learn AutomatonV11.res"
+         Release\Controle.obj
+         Release\ControlePerguntas.obj
+         Release\GerenciadorDeArquivo.obj
+         Release\TelaPontuacao.obj
+         Release\TelaRanking.obj
+         Release\TelaAFD.obj
+         Release\TelaSobre.obj
+         Release\Jogador.obj
+         Release\ManipuladorDeJogadores.obj
+         Release\Pergunta.obj
+         Release\Principal.obj
+         Release\TelaPergunta.obj
+         Release\TelaPrincipal.obj
+         Release\TelaTeoria.obj
+         "Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         Learn AutomatonV1.vcxproj -> C:\Users\Gabriel\Desktop\fai\LA - Bkp 21-10 as 01 hs\LA - Atualizado\Learn AutomatonV1\Release\Learn AutomatonV1.exe
+     1>Done Building Project "C:\Users\Gabriel\Desktop\fai\LA - Bkp 21-10 as 01 hs\LA - Atualizado\Learn AutomatonV1\Learn AutomatonV1\Learn AutomatonV1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.22

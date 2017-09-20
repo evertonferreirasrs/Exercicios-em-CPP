@@ -1,0 +1,21 @@
+﻿Build started 18/05/2015 17:07:04.
+     1>Project "D:\FAI - 2.ano\Linguagem de programação - Gaviao\ATIVIDADE PRATA 2\MediaDiagonal.vcxproj\MediaDiagonal.vcxproj\MediaDiagonal.vcxproj.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Controle.cpp InterfaceUsuario.cpp MediaMatrizDiagonal.cpp Principal.cpp
+         Principal.cpp
+         MediaMatrizDiagonal.cpp
+     1>d:\fai - 2.ano\linguagem de programação - gaviao\atividade prata 2\mediadiagonal.vcxproj\mediadiagonal.vcxproj\mediamatrizdiagonal.cpp(29): warning C4244: 'argumento' : conversão de 'time_t' para 'unsigned int', possível perda de dados
+         InterfaceUsuario.cpp
+         Controle.cpp
+         Gerando Código...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\FAI - 2.ano\Linguagem de programação - Gaviao\ATIVIDADE PRATA 2\MediaDiagonal.vcxproj\Debug\MediaDiagonal.vcxproj.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\FAI - 2.ano\Linguagem de programação - Gaviao\ATIVIDADE PRATA 2\MediaDiagonal.vcxproj\Debug\MediaDiagonal.vcxproj.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\FAI - 2.ano\Linguagem de programação - Gaviao\ATIVIDADE PRATA 2\MediaDiagonal.vcxproj\Debug\MediaDiagonal.vcxproj.lib" /MACHINE:X86 Debug\Controle.obj
+         Debug\InterfaceUsuario.obj
+         Debug\MediaMatrizDiagonal.obj
+         Debug\Principal.obj
+         MediaDiagonal.vcxproj.vcxproj -> D:\FAI - 2.ano\Linguagem de programação - Gaviao\ATIVIDADE PRATA 2\MediaDiagonal.vcxproj\Debug\MediaDiagonal.vcxproj.exe
+     1>Done Building Project "D:\FAI - 2.ano\Linguagem de programação - Gaviao\ATIVIDADE PRATA 2\MediaDiagonal.vcxproj\MediaDiagonal.vcxproj\MediaDiagonal.vcxproj.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.97
